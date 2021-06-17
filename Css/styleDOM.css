@@ -1,0 +1,125 @@
+body {
+  height: 100%;
+  margin: 30px;
+  background-image: linear-gradient(
+    rgb(202, 202, 202),
+    rgb(122, 122, 122),
+    rgb(82, 82, 82),
+    rgb(0, 0, 0)
+  );
+}
+.heading {
+  text-align: center;
+  color: #727272;
+  font-family: cursive;
+}
+.card.product .btn {
+  bottom: 1.5rem;
+  max-width: 80%;
+}
+.first-div {
+  display: flex;
+  margin: 2rem;
+}
+.second-div {
+  display: flex;
+  margin: 2rem;
+}
+.third-div {
+  display: flex;
+  margin: 2rem;
+}
+img {
+  border-radius: 15px;
+  width: 300px;
+  height: 460px;
+}
+.price {
+  font-size: 1.75rem;
+}
+p {
+  font-size: 20px;
+}
+.reactions-block {
+  display: flex;
+  align-content: space-around;
+  font-size: 25px;
+}
+.first,
+.seconde {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+  margin-right: 0px;
+}
+.fa-trash-alt,
+.fa-heart {
+  margin: 0px 12px 0px 0px;
+}
+.fas {
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    margin: 2rem;
+  }
+  #foot {
+    display: flex;
+    margin: 0rem 4.65rem 0rem 3rem;
+  }
+}
+
+/* JSFiddle layout display fix only, don't use */
+body {
+  min-height: 620px;
+}
+
+#foot {
+  display: flex;
+  margin: 0rem 4.65rem 0rem 3rem;
+}
+.row {
+  padding: 2rem;
+  align-content: space-between;
+}
+.pay {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #4a4552;
+  margin: 10px 20px 10px 0px;
+  cursor: pointer;
+  box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+#tax {
+  border-top: 1px lightgray solid;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.btn-black {
+  border: none;
+  border-radius: 10px;
+  background-color: #201f20;
+  color: #fff;
+  padding: 8px 15px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.btn-black:hover {
+  background-color: #636363;
+  color: #fff;
+}
+
+.like {
+  cursor: pointer;
+  font-size: xx-large;
+  color: Red;
+}
+.supprimer {
+  cursor: pointer;
+  font-size: xx-large;
+  color: #5a7a5e;
+}
